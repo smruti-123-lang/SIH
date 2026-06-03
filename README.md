@@ -2,6 +2,8 @@
 A machine learning web application that predicts agricultural crop yield based on soil, weather, and farming inputs. Built with a Scikit-learn pipeline backend and a Flask REST API.
 
 📌 Project Structure
+
+
 crop-yield-prediction/
 ├── train_model.py                          # Model training script
 ├── app.py                                  # Flask prediction API
@@ -9,9 +11,31 @@ crop-yield-prediction/
 └── crop_yield_prediction_model_pipeline.pkl  # Saved model pipeline
 
 🧠 Model Overview
-DetailValueAlgorithmLinear RegressionCategorical EncodingOneHotEncoder (handle_unknown="ignore")PipelineScikit-learn Pipeline + ColumnTransformerTrain/Test Split80% / 20%Saved Format.pkl via pickle
+
+Detail                                   Value
+Algorithm                            Linear Regression
+Categorical Encoding                OneHotEncoder (handle_unknown="ignore")
+Pipeline                            Scikit-learn Pipeline + ColumnTransformer
+Train/Test Split                    80% / 20%
+Saved Format                        .pkl via pickle
+
+
 Input Features
-FeatureTypeCropCategoricalSeasonCategoricalStateCategoricalCrop_YearNumericAreaNumericProductionNumericAnnual_RainfallNumericFertilizerNumericPesticideNumeric
+
+Feature                           Type  
+Crop                          Categorical
+Season                        Categorical
+State                         Categorical
+Crop_Year                     Numeric
+Area                          Numeric
+Production                    Numeric
+Annual_Rainfall               Numeric
+Fertilizer                    Numeric
+Pesticide                     Numeric
+
+
+
+
 Target
 
 Yield — predicted crop yield
