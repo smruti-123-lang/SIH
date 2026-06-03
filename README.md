@@ -5,10 +5,15 @@ A machine learning web application that predicts agricultural crop yield based o
 ---
 
 ## 📌 Project Structure
+
 crop-yield-prediction/
+
 ├── train_model.py                          # Model training script
+
 ├── app.py                                  # Flask prediction API
+
 ├── crop_yield.csv                          # Training dataset
+
 └── crop_yield_prediction_model_pipeline.pkl  # Saved model pipeline
 
 ---
